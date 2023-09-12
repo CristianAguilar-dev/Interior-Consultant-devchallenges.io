@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- metadatos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- titulo ventana -->
+  <title>Interior Consultant</title>
+  <!-- link hoja de estilos -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!-- icono de ventana -->
+  <link rel="shortcut icon" href="./assets/devchallenges.png" type="image/x-icon">
+  <!-- link google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- link iconos bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- estilos para la barra de navegación y elementos dentro -->
+  <header class="header">
+    <nav class="nav container" id="nav">
+      <a href="#" class="nav__logo">THIS INTERIOR</a>
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a href="#hero" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#project" class="nav__link">Collection</a>
+        </li>
+        <li class="nav__item">
+          <a href="#project__designer" class="nav__link">About</a>
+        </li>
+        <li class="nav__item">
+          <a href="#footer" class="nav__link">Contact</a>
+        </li>
+      </ul>
+      <a href="#nav" class="nav__hamburger">
+        <img src="./assets/menu.svg" alt="hamburger" class="nav__icon">
+      </a>
+      <a href="#" class="nav__close">
+        <img src="./assets/close.svg" alt="close" class="nav__icon">
+      </a>
+    </nav>
+  </header>
+  <!-- inicio toda el contenido del main -->
+  <main class="main__container">
+    <!-- inicia primera sección  hero-->
+    <section class="hero" id="hero">
+      <article class="services">
+        <h1 class="services__title">Modern interior</h1>
+        <p class="services__description">
+          A full-Services residential & commercial interior design and staging company offering professional  organizing & eco-services.
+        </p>
+        <button class="services__button">
+          Read more <span class="services__icon"><i class="bi bi-arrow-right"></i></span>
+        </button>
+      </article>
+    </section>
+    <!-- inicia segunda sección proyecto-->
+    <section class="project" id="project">
+      <figure class="project__container">
+        <img src="./assets/photo1.png" alt="Imagen vista de una sala de descanso familiar" class="project__img">
+      </figure>
+      <!-- inicia articulo del diseñador -->
+      <article class="project__designer" id="project__designer">
+        <div class="project__designer-contact">
+          <figure class="designer__img-container">
+            <img src="./assets/Cristian-r.png" alt="imagen del diseñador página de diseño"
+            class="designer__img">
+          </figure>
+            <h2 class="designer__name">Cristian Aguilar <san class="designer__ability">Interior designer</san></h2>
+        </div>
+          <div class="description__container">
+            <p class="designer__description">Designed in 2023 by Cristian Aguilar-dev</p>
+          </div>
+      </article>
+    </section>
+  </main>
+  <!-- inicia el footer -->
+  <footer class="footer" id="footer">
+    <p class="footer__autor">Created by <span>CristianAguilar-dev</span> - devChallenges.io</p>
+  </footer>
+</body>
+</html>
